@@ -41,22 +41,22 @@ I updated to this:
 
 ******* Course Overview *******
 
-Architectures are moving towards Microservices and Cloud. Docker makes it easy to containerize microservices. Kubernetes makes it easy to manage clusters with 1000's of containers running 1000's of microservices. Google Kubernetes Engine (GKE) makes it super easy to create Kubernetes Clusters. 
+Architectures are moving towards Microservices and Cloud. Docker makes it easy to containerize microservices. Kubernetes makes it easy to manage srikanth-clusters with 1000's of containers running 1000's of microservices. Google Kubernetes Engine (GKE) makes it super easy to create Kubernetes srikanth-clusters. 
 
-How about getting them all together and deploying Spring Boot Microservices to Kubernetes Clusters created on Google Cloud Platform using Google Kubernetes Engine (GKE)?
+How about getting them all together and deploying Spring Boot Microservices to Kubernetes srikanth-clusters created on Google Cloud Platform using Google Kubernetes Engine (GKE)?
 
 In this handson course, we will use Docker and Kubernetes to deploy a variety of Spring Boot Applications on Google Cloud using Google Kubernetes Engine:
 - REST APIs - Hello World
 - Todo Web Application War
 - CCS and CES Microservices
 
-You will implement Service Discovery, Centralized Configuration, Distributed Tracing and Load Balancing for Spring Boot Microservices deployed in Kubernetes Clusters.
+You will implement Service Discovery, Centralized Configuration, Distributed Tracing and Load Balancing for Spring Boot Microservices deployed in Kubernetes srikanth-clusters.
 
 You will learn to use Helm Charts, Istio Service Mesh, Google Stackdriver and Spring Cloud Kubernetes to play with Java Microservices on Kubernetes.
 
 This course would be a perfect first step as an introduction to Kubernetes.
 
-You will be using containerizing (using Docker) and deploying a variety of projects to Kubernetes Clusters. These projects are created with  Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
+You will be using containerizing (using Docker) and deploying a variety of projects to Kubernetes srikanth-clusters. These projects are created with  Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
 
 
 
@@ -82,9 +82,9 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 ### Getting Started with Kubernetes and Google Kubernete Engine (GKE)
 - 01 Step 01 - Getting Started with Docker, Kubernetes and Google Kubernetes Engine
 - 01 Step 02 - Creating Google Cloud Account
-- 01 Step 03 - Creating Kubernetes Cluster with Google Kubernete Engine (GKE)
-- 01 Step 04 - Review Kubernetes Cluster and Learn Few Fun Facts about Kubernetes
-- 01 Step 05 - Deploy Your First Spring Boot Application to Kubernetes Cluster
+- 01 Step 03 - Creating Kubernetes srikanth-cluster with Google Kubernete Engine (GKE)
+- 01 Step 04 - Review Kubernetes srikanth-cluster and Learn Few Fun Facts about Kubernetes
+- 01 Step 05 - Deploy Your First Spring Boot Application to Kubernetes srikanth-cluster
 - 01 Step 06 - Quick Look at Kubernetes Concepts - Pods, Replica Sets and Deployment
 - 01 Step 07 - Understanding Pods in Kubernetes
 - 01 Step 08 - Understanding ReplicaSets in Kubernetes
@@ -125,11 +125,11 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 05 Step 05 - Playing with Docker Compose
 - 05 Step 06 - Using Kompose to generate Kubernetes Deployment Configuration
 - 05 Step 07 - Review Kubernetes YAML for MySQL and Java Web Application
-- 05 Step 08 - Deploy MySQL Database to Kubernetes Cluster
+- 05 Step 08 - Deploy MySQL Database to Kubernetes srikanth-cluster
 - 05 Step 09 - Understanding Persistent Storage with Kubernetes - PV and PVC
 - 05 Step 10 - Using Config Maps for Centralized Configuration with Kubernetes
 - 05 Step 11 - Using Secrets with Kubernetes
-- 05 Step 12 - Creating a ClusterIP Kubernetes Service for MySQL Database
+- 05 Step 12 - Creating a srikanth-clusterIP Kubernetes Service for MySQL Database
 
 ### Deploying Basic Spring Boot Microservices to Kubernetes
 - 06 Step 01 - Introduction to Microservices
@@ -137,7 +137,7 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 06 Step 03 - Microservices - Challenges
 - 06 Step 04 - Overview of CCS and CES Spring Boot Microservices
 - 06 Step 05 - Push Docker Images and Create Kubernetes Config for Microservices
-- 06 Step 06 - Deploying Spring Boot Microservices to Kubernetes Cluster
+- 06 Step 06 - Deploying Spring Boot Microservices to Kubernetes srikanth-cluster
 - 06 Step 07 - Microservices and Kubernetes Service Discovery - Part 1
 - 06 Step 08 - Microservices and Kubernetes Service Discovery - Part 2 DNS
 - 06 Step 09 - Microservice Discovery, Centralized Configuration and Load Balancing with Kubernetes
@@ -151,21 +151,21 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 07 Step 04 - Using Spring Cloud Kubernetes Config to load ConfigMaps
 - 07 Step 05 - Understanding Auto Scaling approaches with Kubernetes
 - 07 Step 06 - Implementing Horizontal Pod Autoscaling with Kubernetes
-- 07 Step 07 - Deleting Your Kubernetes Cluster
+- 07 Step 07 - Deleting Your Kubernetes srikanth-cluster
 
 ### Integrating Spring Boot Microservices on Kubernetes with Google Stackdriver
-- 08 Step 01 - Creating New Cluster to Play With Google Stackdriver
+- 08 Step 01 - Creating New srikanth-cluster to Play With Google Stackdriver
 - 08 Step 02 - Review Spring Boot Microservices integrated with Google Stackdriver
 - 08 Step 03 - Enabling Stackdriver APIs for Your Google Cloud Account
 - 08 Step 04 - Deploy Spring Boot Microservices and Explore Google Stackdriver Tracing
 - 08 Step 05 - Exploring Google Stackdriver Error Reporting and Logging
 
 ### Integrating Spring Boot Microservices on Kubernetes with Istio
-- 09 Step 01 - Creating new Kubernetes Cluster for Playing with Istio
+- 09 Step 01 - Creating new Kubernetes srikanth-cluster for Playing with Istio
 - 09 Step 02 - Understanding Service Mesh, Istio and Sidecar Pattern
-- 09 Step 03 - Installing Istio on Kubernetes Cluster - CRD and Istio Components
+- 09 Step 03 - Installing Istio on Kubernetes srikanth-cluster - CRD and Istio Components
 - 09 Step 04 - Review Istio Installation and Deploy Spring Boot App with Side Cars
-- 09 Step 05 - Increasing Kubernetes Cluster Size to 3 Nodes
+- 09 Step 05 - Increasing Kubernetes srikanth-cluster Size to 3 Nodes
 - 09 Step 06 - Understanding Gateways and Virtual Services for Istio
 - 09 Step 07 - Basic Deployment Strategies - Rolling Updates and Recreate
 - 09 Step 08 - Setting up Multiple Versions of Spring Boot Applications
@@ -175,12 +175,12 @@ You will be using containerizing (using Docker) and deploying a variety of proje
 - 09 Step 12 - Observing Istio Service Mesh with Kiali
 - 09 Step 13 - Monitoring Istio Service Mesh with Graphana and Prometheus
 - 09 Step 14 - Distribute Tracing for Spring Boot Microsevices with Istio and Jaegar
-- 09 Step 15 - Delete Kubernetes Cluster for Playing with Istio
+- 09 Step 15 - Delete Kubernetes srikanth-cluster for Playing with Istio
 
 ### Using Helm to Automate Microservices Deployment on Kubernetes
-- 10 Step 01 - Understanding Helm Basics and Setting up Kubernetes Cluster
+- 10 Step 01 - Understanding Helm Basics and Setting up Kubernetes srikanth-cluster
 - 10 Step 02 - Using Helm Charts to deploy Spring Boot Microservice to Kubernetes
-- 10 Step 03 - Using Helm Charts to manage Releases to Kubernetes Cluster
+- 10 Step 03 - Using Helm Charts to manage Releases to Kubernetes srikanth-cluster
 
 ### Appendix - Introduction to Docker in 9 Steps
 - 11 Step 01 - Installing Docker - Docker
@@ -214,7 +214,7 @@ kubectl autoscale deployment hello-world-rest-api --max=10 --cpu-percent=70
 kubectl edit deployment hello-world-rest-api #minReadySeconds: 15
 kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.2.RELEASE
 
-gcloud container clusters get-credentials in28minutes-cluster --zone us-central1-a --project solid-course-258105
+gcloud container srikanth-clusters get-credentials srikanth-cluster --zone us-central1-a --project solid-course-258105
 kubectl create deployment hello-world-rest-api --image=sdannarapu/hello-world-rest-api:0.0.1.RELEASE
 kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
 kubectl set image deployment hello-world-rest-api hello-world-rest-api=DUMMY_IMAGE:TEST
@@ -266,7 +266,7 @@ kubectl get pods --all-namespaces
 
 gcloud auth login
 kubectl version
-gcloud container clusters get-credentials in28minutes-cluster --zone us-central1-a --project solid-course-258105
+gcloud container srikanth-clusters get-credentials srikanth-cluster --zone us-central1-a --project solid-course-258105
 
 kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.4-SNAPSHOT
 
@@ -312,7 +312,7 @@ kubectl get pods -l app=todo-web-application-h2 --all-namespaces
 kubectl get services --all-namespaces
 kubectl get services --all-namespaces --sort-by=.spec.type
 kubectl get services --all-namespaces --sort-by=.metadata.name
-kubectl cluster-info
+kubectl srikanth-cluster-info
 kubectl top node
 kubectl top pod
 
@@ -381,7 +381,7 @@ metadata:
   name: todo-web-application-config
   namespace: default
 
-cd /in28Minutes/git/kubernetes-crash-course/04-currency-exchange-microservice-basic 
+cd /Srikanth/git/kubernetes-crash-course/04-currency-exchange-microservice-basic 
 mvn clean install
 docker push sdannarapu/currency-exchange:0.0.1-RELEASE
 kubectl apply -f deployment.yaml
@@ -426,7 +426,7 @@ kubectl apply -f 05-helloworld-mirroring.yaml
 kubectl apply -f 06-helloworld-canary.yaml 
 watch -n 0.1 curl 35.223.25.220/hello-world
 
-gcloud container clusters get-credentials in28minutes-cluster-istio --zone us-central1-a --project solid-course-258105
+gcloud container srikanth-clusters get-credentials srikanth-cluster-istio --zone us-central1-a --project solid-course-258105
 kubectl create namespace istio-system
 curl -L https://git.io/getLatestIstio | ISTIO_VERSION=1.2.2 sh -
 ls istio-1.2.2
@@ -447,7 +447,7 @@ kubectl create secret generic kiali -n istio-system --from-literal=username=admi
 kubectl get svc --namespace istio-system
 
 
-gcloud container clusters get-credentials helm-cluster --zone us-central1-a --project solid-course-258105
+gcloud container srikanth-clusters get-credentials helm-srikanth-cluster --zone us-central1-a --project solid-course-258105
 helm init
 kubectl get deploy,svc tiller-deploy -n kube-system
 clear
@@ -455,7 +455,7 @@ unzip 12-helm.zip
 ls helm-tiller.sh
 chmod +x helm-tiller.sh
 
-gcloud container clusters get-credentials helm-cluster --zone us-central1-a --project solid-course-258105
+gcloud container srikanth-clusters get-credentials helm-srikanth-cluster --zone us-central1-a --project solid-course-258105
 ./helm-tiller.sh
 cat helm-tiller.sh 
 kubectl get deploy,svc tiller-deploy -n kube-system
@@ -579,8 +579,8 @@ Block1,Block2[height=2]
 Block1 -- Level1 [style=invis]
 Block2 -- Level1 [style=invis]
 
-Level1[label=<Cluster>]
-Block1[label=<Master Node(s) <BR/> <FONT POINT-SIZE="10">Manages Cluster</FONT>>]
+Level1[label=<srikanth-cluster>]
+Block1[label=<Master Node(s) <BR/> <FONT POINT-SIZE="10">Manages srikanth-cluster</FONT>>]
 Block2[label=<Worker Node(s) <BR/> <FONT POINT-SIZE="10">Run Your Applications</FONT>>]
 
 }
@@ -820,7 +820,7 @@ node[shape=record, width=2]
 Node1 -- Node2
 Node2 -- Node3
 
-Node1[label=<Create Cluster>]
+Node1[label=<Create srikanth-cluster>]
 Node2[label=<Create Deployment>]
 Node3[label=<Docker Repository>]
 }
@@ -832,10 +832,10 @@ node[style=filled,color="#59C8DE"]
 rankdir = TB
 node[shape=record, width=3]
 
-Clusters, LocalImages [height=1]
+srikanth-clusters, LocalImages [height=1]
 
 KubernetesClient -- Daemon
-Daemon -- Clusters 
+Daemon -- srikanth-clusters 
 Daemon -- LocalImages
 Daemon -- ImageRegistry
 
@@ -926,13 +926,5 @@ Billing
 NodePort Example
 ---
 
-### Troubleshooting
-- Refer our TroubleShooting Guide - https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ
 
-## Youtube Playlists - 500+ Videos
 
-[Click here - 30+ Playlists with 500+ Videos on Spring, Spring Boot, REST, Microservices and the Cloud](https://www.youtube.com/user/rithustutorials/playlists?view=1&sort=lad&flow=list)
-
-## Keep Learning in28Minutes
-
-in28Minutes is creating amazing solutions for you to learn Spring Boot, Full Stack and the Cloud - Docker, Kubernetes, AWS, React, Angular etc. - [Check out all our courses here](https://github.com/in28minutes/learn)
