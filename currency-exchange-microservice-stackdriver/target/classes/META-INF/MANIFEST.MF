@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: currency-exchange
+Implementation-Version: 7.0.0-RELEASE
+Built-By: sreekanth
+Implementation-Vendor-Id: com.microservices
+Build-Jdk: 1.8.0_212
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/currency-exchange-stackdriver
+Created-By: Maven Integration for Eclipse
+

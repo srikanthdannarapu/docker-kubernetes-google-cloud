@@ -1,0 +1,6 @@
+com\rest\webservices\restfulwebservices\helloworld\HelloWorldController.class
+com\rest\webservices\restfulwebservices\RestfulWebServicesApplication.class
+com\rest\webservices\restfulwebservices\todo\TodoJpaResource.class
+com\rest\webservices\restfulwebservices\helloworld\HelloWorldBean.class
+com\rest\webservices\restfulwebservices\todo\Todo.class
+com\rest\webservices\restfulwebservices\todo\TodoJpaRepository.class

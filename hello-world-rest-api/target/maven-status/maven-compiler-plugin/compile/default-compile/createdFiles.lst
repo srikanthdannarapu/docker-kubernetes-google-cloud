@@ -1,0 +1,4 @@
+com\rest\webservices\restfulwebservices\RestfulWebServicesApplication.class
+com\rest\webservices\restfulwebservices\environment\InstanceInformationService.class
+com\rest\webservices\restfulwebservices\HelloWorldController.class
+com\rest\webservices\restfulwebservices\HelloWorldBean.class
