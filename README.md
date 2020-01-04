@@ -1,33 +1,11 @@
-# Kubernetes Crash Course for Java Developers on Google Cloud
 
-[![Image](https://www.springboottutorial.com/images/Course-KubernetesCrashCourse.png "Kubernetes Crash Course for Java Spring Boot Developers")](https://www.udemy.com/course/kubernetes-crash-course-for-java-developers/)
-
-
-## Learn Kubernetes and Docker with Google Kubernetes Engine deploying Spring Boot Microservices
-
-Learn Kubernetes? Yes.   Learn Docker, Istio and Helm? Yes.
-Deploy Spring Boot and Spring Cloud Microservices to Kubernetes? Yes. Of Course.
-
-Do you have ZERO experience with Docker and Kubernetes? No Problem.
-
-Do you want to learn Kubernetes and deploy Spring Boot Microservices to Kubernetes with an easy to learn, step by step approach?
-
-Do you want to join 300,000+ learners having Amazing Learning Experiences with in28Minutes?
-
-Look No Further!
 
 ## First Commands
 
 ```
-kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+kubectl create deployment hello-world-rest-api --image=sdannarapu/hello-world-rest-api:0.0.1.RELEASE
 kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
 ```
-
-## Getting Started
-- [Video - Docker in 5 Steps](https://youtu.be/Rt5G5Gj7RP0)
-- [Video - Spring in 10 Steps](https://www.youtube.com/watch?v=edgZo2g-LTM)
-- [Video - Spring Boot in 10 Steps](https://www.youtube.com/watch?v=pcdpk3Yd1EA)
-- [Video - JPA/Hibernate in 10 Steps](https://www.youtube.com/watch?v=MaI0_XdpdP8)
 
 ## Installation Guides
 
@@ -42,16 +20,7 @@ kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
 - ELB CLI
 - Google Cloud Account
 
-#### Installing Guides
 
-- [Playlist - Installing Java, Eclipse & Embedded Maven](https://www.youtube.com/playlist?list=PLBBog2r6uMCSmMVTW_QmDLyASBvovyAO3)
-
-#### Troubleshooting Installations
-
-- Eclipse and Embedded Maven
-  - Troubleshooting Guide : https://github.com/in28minutes/in28minutes-initiatives/tree/master/The-in28Minutes-TroubleshootingGuide-And-FAQ#tip--troubleshooting-embedded-maven-in-eclipse
-  - PDF : https://github.com/in28minutes/SpringIn28Minutes/blob/master/InstallationGuide-JavaEclipseAndMaven_v2.pdf
-  - GIT Repository For Installation : https://github.com/in28minutes/getting-started-in-5-steps
 
 
 #### Troubleshooting Docker
@@ -89,33 +58,7 @@ This course would be a perfect first step as an introduction to Kubernetes.
 
 You will be using containerizing (using Docker) and deploying a variety of projects to Kubernetes Clusters. These projects are created with  Spring Boot (REST API Framework), Spring (Dependency Management), Spring Security (Authentication and Authorization - Basic and JWT), BootStrap (Styling Pages), Maven (dependencies management), Eclipse (Java IDE) and Tomcat Embedded Web Server. We will help you set up each one of these.
 
-## What you'll learn
-- You will Learn the Fundamentals of Kubernetes from Zero, no previous experience required
-- You will learn to deploy Spring Boot Microservices to Kubernetes Clusters on Google Cloud.
-- You will learn the Basic Kubernetes Concepts - Pods, Replica Sets and Deployment
-- You will learn the Basics of Docker - Images, Repository and Containers
-- You will learn the important Kubernetes commands 
-- You will understand the Kubernetes Architecture
-- You will learn to use Kubernetes to Manage Your Clusters
-- You will learn the basics of Microservices
-- You will use Kubernetes Declaratively with YAML Configuration
-- You will learn to expose your Kubernetes Deployments with Services and Ingress
-- You will learn to use Kubernetes Config Maps and Secrets
-- You will make Zero Downtime Releases with Kubernetes
-- You will learn to Create Kubernetes clusters with Master Node and Nodes
-- You will learn to deploy Spring Boot Web Applications and Rest API to Kubernetes
-- You will become an expert on the Kubernetes command line tool - kubectl
-- You will play with Docker, Docker Compose and Kubernetes
-- You will use Persistent Storage with Kubernetes - PV and PVC
-- You will implement Service Discovery, Centralized Configuration, Distributed Tracing and Load Balancing for microservices deployed in Kubernetes
-- You will implement different Auto Scaling approaches with Kubernetes
-- You will use Google Stackdriver for Tracing, Error Reporting and Logging
-- You will integrate Spring Boot Microservices on Kubernetes with Istio
-- You will perform Blue Green Deployments and Canary Deployments with Istio
-- You will integrate Kiali, Graphana and Prometheus with Istio and Kubernetes
-- You will implement Distributed Tracing for Spring Boot Microsevices with Istio and Jaegar
-- You will use Helm to Automate Microservices Deployment on Kubernetes
-- You will Join 300,000 Learners having AMAZING LEARNING Experiences with in28Minutes
+
 
 ## Requirements
 - You have an attitude to learn while having fun :)
@@ -261,22 +204,22 @@ for file in *; do mv "${file}" "${file//01 Step/Step}"; done
 
 ```
 
-docker run -p 8080:8080 in28min/hello-world-rest-api:0.0.1.RELEASE
+docker run -p 8080:8080 sdannarapu/hello-world-rest-api:0.0.1.RELEASE
 
-kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+kubectl create deployment hello-world-rest-api --image=sdannarapu/hello-world-rest-api:0.0.1.RELEASE
 kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
 kubectl scale deployment hello-world-rest-api --replicas=3
 kubectl delete pod hello-world-rest-api-58ff5dd898-62l9d
 kubectl autoscale deployment hello-world-rest-api --max=10 --cpu-percent=70
 kubectl edit deployment hello-world-rest-api #minReadySeconds: 15
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=in28min/hello-world-rest-api:0.0.2.RELEASE
+kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.2.RELEASE
 
 gcloud container clusters get-credentials in28minutes-cluster --zone us-central1-a --project solid-course-258105
-kubectl create deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.1.RELEASE
+kubectl create deployment hello-world-rest-api --image=sdannarapu/hello-world-rest-api:0.0.1.RELEASE
 kubectl expose deployment hello-world-rest-api --type=LoadBalancer --port=8080
 kubectl set image deployment hello-world-rest-api hello-world-rest-api=DUMMY_IMAGE:TEST
 kubectl get events --sort-by=.metadata.creationTimestamp
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=in28min/hello-world-rest-api:0.0.2.RELEASE
+kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.2.RELEASE
 kubectl get events --sort-by=.metadata.creationTimestamp
 kubectl get componentstatuses
 kubectl get pods --all-namespaces
@@ -311,7 +254,7 @@ kubectl get pods
 kubectl describe pod hello-world-rest-api-85995ddd5c-msjsm
 kubectl get events --sort-by=.metadata.creationTimestamp
 
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=in28min/hello-world-rest-api:0.0.2.RELEASE
+kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.2.RELEASE
 kubectl get events --sort-by=.metadata.creationTimestamp
 kubectl get pods -o wide
 kubectl delete pod hello-world-rest-api-67c79fd44f-n6c7l
@@ -325,10 +268,10 @@ gcloud auth login
 kubectl version
 gcloud container clusters get-credentials in28minutes-cluster --zone us-central1-a --project solid-course-258105
 
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=in28min/hello-world-rest-api:0.0.4-SNAPSHOT
+kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.4-SNAPSHOT
 
 kubectl rollout history deployment hello-world-rest-api
-kubectl set image deployment hello-world-rest-api hello-world-rest-api=in28min/hello-world-rest-api:0.0.4-SNAPSHOT --record
+kubectl set image deployment hello-world-rest-api hello-world-rest-api=sdannarapu/hello-world-rest-api:0.0.4-SNAPSHOT --record
 
 kubectl rollout history deployment hello-world-rest-api
 kubectl rollout status deployment hello-world-rest-api
@@ -359,7 +302,7 @@ kubectl delete all -l app=hello-world-rest-api
 kubectl get all -o wide
 
 mvn clean install
-docker push in28min/todo-web-application-h2:0.0.1-SNAPSHOT
+docker push sdannarapu/todo-web-application-h2:0.0.1-SNAPSHOT
 kubectl delete all -l app=hello-world-rest-api
 
 kubectl get pods
@@ -384,8 +327,8 @@ kubectl get no
 kubectl get po
 
 docker run --detach --env MYSQL_ROOT_PASSWORD=dummypassword --env MYSQL_USER=todos-user --env MYSQL_PASSWORD=dummytodos --env MYSQL_DATABASE=todos --name mysql --publish 3306:3306 mysql:5.7
-docker run -p 8080:8080 in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
-docker run -p 8080:8080 --link=mysql --env RDS_HOSTNAME=mysql in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+docker run -p 8080:8080 sdannarapu/todo-web-application-mysql:0.0.1-SNAPSHOT
+docker run -p 8080:8080 --link=mysql --env RDS_HOSTNAME=mysql sdannarapu/todo-web-application-mysql:0.0.1-SNAPSHOT
 
 docker-compose --version
 docker-compose up
@@ -398,7 +341,7 @@ kubectl delete all -l app=todo-web-application-h2
 kubectl apply -f mysql-database-data-volume-persistentvolumeclaim.yaml,mysql-deployment.yaml,mysql-service.yaml
 kubectl get svc
 kubectl apply -f todo-web-application-deployment.yaml,todo-web-application-service.yaml
-docker push in28min/todo-web-application-mysql:0.0.1-SNAPSHOT
+docker push sdannarapu/todo-web-application-mysql:0.0.1-SNAPSHOT
 kubectl logs todo-web-application-b65cc44d9-7h9pr -f
 
 kubectl apply -f mysql-service.yaml
@@ -440,7 +383,7 @@ metadata:
 
 cd /in28Minutes/git/kubernetes-crash-course/04-currency-exchange-microservice-basic 
 mvn clean install
-docker push in28min/currency-exchange:0.0.1-RELEASE
+docker push sdannarapu/currency-exchange:0.0.1-RELEASE
 kubectl apply -f deployment.yaml
 curl 34.67.103.178:8000/currency-exchange/from/USD/to/INR
 
@@ -453,7 +396,7 @@ kubectl get hpa -o yaml
 kubectl get hpa -o yaml > 01-hpa.yaml
 kubectl get hpa currency-exchange -o yaml > 01-hpa.yaml
 
-kubectl set image deployment hello-world-rest-api --image=in28min/hello-world-rest-api:0.0.4-SNAPSHOT
+kubectl set image deployment hello-world-rest-api --image=sdannarapu/hello-world-rest-api:0.0.4-SNAPSHOT
 kubectl apply -f ingress.yaml
 kubectl get ingress
 kubectl describe gateway-ingress
@@ -461,7 +404,7 @@ kubectl describe gateway gateway-ingress
 kubectl describe ingress gateway-ingress
 kubectl apply -f rbac.yml
  
-docker push in28min/currency-conversion:0.0.5-RELEASE
+docker push sdannarapu/currency-conversion:0.0.5-RELEASE
 
 kubectl create configmap currency-conversion --from-literal=YOUR_PROPERTY=value --from-literal=YOUR_PROPERTY_2=value2
 
@@ -496,7 +439,7 @@ kubectl get pods --namespace istio-system
 kubectl get services --namespace istio-system
 
 
-docker push in28min/currency-exchange:3.0.0-RELEASE
+docker push sdannarapu/currency-exchange:3.0.0-RELEASE
 kubectl apply -f deployment.yaml 
 kubectl apply -f 11-istio-scripts-and-configuration/07-hw-virtualservice-all-services.yaml 
 kubectl get secret -n istio-system kiali
